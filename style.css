@@ -1,0 +1,163 @@
+.firstdiv{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    /* margin: 00px 220px 80px 220px; */
+}
+
+ul li{
+    display: inline-block;
+}
+
+li{
+    margin-right: 25px;
+    color: rgba(0, 0, 0, 0.577);
+    font-size: 16px;
+}
+
+.firstlist{
+    color: rgba(255, 0, 0, 0.597);
+}
+
+.imagecontainer{
+    height: 330px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.general{
+    background-image: url(/images/b4.jpg);
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.225);
+    /* margin-bottom: 0; */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.about{
+    text-align: center;
+}
+h1{
+    color: white;
+    text-decoration:underline;
+}
+.firstp{
+    color: white;
+    font-size: 13px;
+}
+button{
+    background-color: rgba(255, 0, 0, 0.795);
+    color: white;
+    border: none;
+    padding: 8px 25px;
+    /* margin-top: 7px; */
+    font-size: 11px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+.flex{
+    color:rgba(255, 0, 0, 0.795);
+    margin-right:300px;
+
+}
+.list{
+    margin-top: 0px;
+}
+ul li{
+    display: inline-block;
+    justify-content: center;
+}
+
+.dot{
+    color: black;
+    font-weight: bold;
+    font-size: 23px;
+    margin-top: 0px;
+
+}
+.divs{
+    display: flex;
+    justify-content: space-between;
+    height: 170px;
+    gap:20px;
+    margin-left: 300px;
+    margin-right: 300px;    
+}
+.one, .two, .three, .four {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.one{
+    background-color: rgb(0, 255, 140);
+}
+.two{
+    background-color: rgba(255, 89, 0, 0.992)
+}
+.three{
+    background-color: rgba(0, 55, 255, 0.871)
+}
+.four{
+    background-color: rgba(0, 128, 23, 0.898)
+    
+}
+.firsth{
+    margin-top: 80px;
+    color: white;
+}
+.secondp,.lastp {
+    color: rgba(0, 0, 0, 0.599);
+    font-size: 13px;
+    margin-top: 0px;
+}
+.images{
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+img{
+    display: inline-grid;
+    width: 100%;
+}
+
+.img-one, .img-two,.img-three,.img-four,.img-five,.img-six,.img-seven,.img-eight{
+    /* border: 1px solid black; */
+    width: 100%;
+    height:165px;
+}
+.splash{
+    width: 70px;
+    height: 70px;
+    background-color: red;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+.facebook,.instagram,.twitter,.linkedin{
+    height: 30px;
+    border-radius: 50%;
+    background-color: white;
+    align-items: center;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
